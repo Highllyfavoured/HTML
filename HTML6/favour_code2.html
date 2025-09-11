@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codebook_2</title>
+</head>
+<body>
+    <div style="background-color: #4a50af; padding: 20px; border-radius: 40px; max-width: 500px;">
+        <h3 style="color: #040664;">Basic Contact Form</h3>
+
+        <form>
+            <div style="margin-bottom: 15px;">
+                <label for="fullname" style="display: block; margin-bottom: 5px; font-weight: bold; color: hsl(197, 83%, 56%);"> Full Name:</label>
+                <input type="text" id="fullname"
+                name="fullname"
+                      style="width: 90%; padding: 8px; border: 2px solid hsl(219, 89%, 22%); border-radius: 5px; font-weight: bold;"
+                placeholder="Enter your full name">
+            </div>
+
+            <div style="margin-bottom: 15px;"> 
+                <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold; color: hsl(197, 83%, 56%);">Email:</label>
+                <input type="email" id="email" name="email" style="width: 90%; padding: 8px; border: 2px solid #040664; border-radius: 5px; font-weight: bold;"
+                placeholder="your.email@example.com">                    
+            </div> 
+
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold; color:hsl(197, 83%, 56%)">Message:</label>
+                <textarea id="message" name="message" rows="4" 
+                            style="width: 90%; padding: 8px; border: 2px solid #ddd; border-radius: 5px;font-weight: bold; border: 2px solid #040664;"
+                            placeholder="write your message here..."></textarea>
+            </div>
+
+            <button type="submit"
+                    style="background-color: hsl(197, 83%, 56%); color:#33047e; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; width: 50%; font-weight: bold;">
+                Send Message
+            </button>
+        </form>
+    </div>
+    <div style="background-color: #040664; padding: 20px; border-radius: 40px; max-height: 600px;">
+        <h3 style="color: hsl(197, 83%, 56%);">HTML5 Input Types Demo</h3>
+
+        <form style="color:white;">
+           <table style="width: 100%; border-spacing: 10px;">
+            <tr>
+                <td><label for="text-input"><strong>Text:</strong></label></td>
+                <td><input type="text" id="text-input" placeholder="Regular text" 
+                           style="padding: 8px; border: 1px solid hsl(197, 83%, 56%); border-radius: 4px; width: 100%; font-weight: bold;"></td>
+            </tr>
+
+            <tr>
+                <td><label
+                for="password-input"><strong>Password:</strong></label></td>
+                <td><input type="password"
+                    id="password-input" placeholder="Enter password"
+                    style="padding: 8px; border: 1px solid hsl(197, 83%, 56%); border-radius: 4px; width: 100%; font-weight: bold;"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email-input"><strong>Email:</strong></label></td>
+                
+            </tr>
+           </table>
+        </form>
+    </div>
+</body>
+</html>

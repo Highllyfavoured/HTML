@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Webpage</title>
+</head>
+<body>
+    <div style="background-color: #0e6eb8; padding: 20px; border-radius: 10px; margin-bottom: 20px; max-width: 100%;">
+    <h1 style="color: whitesmoke;">Highly Favoured Decorations</h1> 
+
+     <nav style="background-color: #0a0c6d; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+        <ul style="list-style: none; margin: 0; padding: 0;">
+            <li style="display: inline-block; margin-right: 20px;">
+                <a href="#home" style="color: white; text-decoration: none; font-weight: bold;">Features</a>
+            </li>
+            <li style="display: inline-block; margin-right: 20px;">
+                <a href="#about" style="color: white; text-decoration: none;">Subscribe</a>
+            </li>
+            <li style="display: inline-block; margin-right: 20px;">
+                <a href="#services" style="color: white; text-decoration: none;">Resources</a>
+            </li>
+            <li style="display: inline-block; margin-right: 20px;">
+                <a href="#contact" style="color: white; text-decoration: none;">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main style="background-color: whitesmoke; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <section id="home" style="margin-bottom: 30px;">
+            <h2 style="color: #0e6eb8;"> You are Welcome!</h2>
+            <p style="color:black">You are welcome to Highly Favoured Decorations. Everything we touch becomes beautiful</p>
+        </section>
+        
+        <section id="about" style="margin-bottom: 30px;">
+            <h2 style="color: #0e6eb8;">Know More</h2>
+            <p style="color:black">We are available world wide for all kinds of exterior Decorations, Everything we touch becomes beautiful. We put smiles on the face of our celebrants and we make your events colourful and memorable. We are the brand you can trust.</p>
+        </section>
+        
+        <section id="services" style="margin-bottom: 30px;">
+            <h2 style="color: #0e6eb8;">What we offer</h2>
+            <ul style="color:black">
+                <li>Wedding decoratins</li>
+                <li>Birthdays Decorations</li>
+                <li>Dinner Decorations and lots more</li>
+            </ul>
+        </section>
+    </main>
+    <div style="background-color: #c6d9e9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+    <h3 style="color: #0a0c6d;">Contact Form</h3>
+    
+    <form style="background-color: white; padding: 20px; border-radius: 8px; color:black; color: #0a0c6d">
+        <div style="margin-bottom: 15px;">
+            <label for="username" style="display: block; margin-bottom: 5px; font-weight: bold;">Fullname</label>
+            <input type="text" id="username" name="full name" required
+                   pattern="[a-zA-Z0-9]{3,16}"
+                   style="width: 70%; padding: 8px; border: 2px solid; color:#0e6eb8; border-radius: 4px;"
+                   placeholder="Enter your Fullname"
+                   title=" Enter fullnamez">
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label for="email-advanced" style="display: block; margin-bottom: 5px; font-weight: bold;color:#0a0c6d">Email</label>
+            <input type="email" id="email-advanced" name="email-advanced" required
+                   style="width: 70%; padding: 8px; border: 2px solid #0e6eb8; border-radius: 4px;"
+                   placeholder="user@example.com">
+            </div>
+        </div>
+     <div style="margin-bottom: 20px; color:#0a0c6d">
+        <h4>Image with Caption</h4>
+        <figure style="margin: 0; text-align: center;">
+            <img src="https://images.unsplash.com/photo-1721742147315-5b3e1ffdebac?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                 alt="Web Development" 
+                 style="border-radius: 8px; max-width: 100%;">
+            <figcaption style="margin-top: 8px; font-style: italic; color: #0a0c6d;">
+                Modern Exterior Decorations
+            </figcaption>
+        </figure>
+
+    </div>
+</body>
+</html>
